@@ -1,0 +1,74 @@
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(4, 4, 4);
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.main{
+    background-image: url("./pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1450px;
+    filter: brightness(90%);
+    height: 100vh;
+
+}
+
+
+.container{
+    background: rgb(154, 214, 249);
+    max-width: 30%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
+
+#increment-btn {
+    background: rgb(249, 149, 206);
+}
+
+
+#save-btn {
+    background: rgb(156, 154, 241);
+}
+
+#para1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
